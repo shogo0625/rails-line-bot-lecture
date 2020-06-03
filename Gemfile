@@ -10,6 +10,10 @@ gem 'sqlite3', '~> 1.4'
 # Use Puma as the app server
 gem 'puma', '~> 4.3'
 
+gem "actionpack", ">= 6.0.3.1"
+gem "activestorage", ">= 6.0.3.1"
+gem "activesupport", ">= 6.0.3.1"
+
 gem 'active_hash'
 
 gem 'line-bot-api'
